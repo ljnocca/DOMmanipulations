@@ -8,7 +8,7 @@ document.querySelector("#double button").addEventListener('click',function(){
   // TASK #2
   var pNode = document.getElementById('compoundInvestment')
   var number = parseInt(pNode.innerHTML)
-  number += number
+  number = number * 2
   pNode.innerHTML=number
 })
 
